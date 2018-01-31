@@ -1,0 +1,31 @@
+﻿body {
+}
+#sec1, #sec2, #sub-sec2{
+    margin-top:20px;
+}
+#sec1 img{
+    border-radius:10px;
+    width:100%;
+    margin-bottom:20px;
+}
+#sec1 .detail{
+    border:solid 3px #000000;
+    padding:10px;
+}
+
+#sec2 p{
+    font-size:x-large;
+}
+#sec2 p small{
+    font-size:medium;
+}
+
+@media only screen and (max-width: 768px) {
+    #sec1 img {
+        width: 70%;
+    }
+
+    #sec1 .detail, #sec2 p {
+        margin: 0px 5px;
+    }
+}
